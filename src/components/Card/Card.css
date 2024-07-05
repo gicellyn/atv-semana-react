@@ -1,0 +1,14 @@
+.card-corpo {
+    background-color: whitesmoke;
+    padding: 8px;
+    border: 1px solid #ecceae;
+    border-radius: 8px;
+    width: 300px;
+    margin: 8px auto;
+
+}
+
+.card-corpo img{
+    width: 100%;
+}
+

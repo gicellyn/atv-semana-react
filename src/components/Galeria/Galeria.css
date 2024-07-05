@@ -1,0 +1,24 @@
+.galeria-corpo {
+    background-color: #fbf6e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.galeria-corpo h1{
+    font-size: 3rem;
+    text-shadow: -5px 3px #e762416b;
+    color: #ff704d;
+    text-align: center;
+    margin: 10px;
+}
+
+.galeria-corpo img:hover {
+    color: white;
+    box-shadow: 0 0 30px 10px #181D31;
+}
+
+.lista{
+    display: flex;
+    gap: 18px;
+}

@@ -1,0 +1,33 @@
+.planos{
+    display: flex;
+    background-color:#fbf6e2 ;
+}
+.card-planos {
+    background-color:  rgba(105, 117, 221, 0.719);
+    padding: 8px;
+    border: 1px solid #ecceae;
+    border-radius: 8px;
+    width: 300px;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cards-planos:hover {
+    color: white;
+    box-shadow: 0 0 30px 10px #181D31;
+}
+.card-produto h4 {
+    font-size: 2rem;
+}
+
+.grifado {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.desconto {
+    color: green;
+}
