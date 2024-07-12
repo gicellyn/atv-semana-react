@@ -2,7 +2,7 @@
     display: flex;
     background-color:#fbf6e2 ;
     height: 30vh;
-    
+    margin-bottom: 100px;
 }
 .card-planos {
     background-color:  rgba(105, 117, 221, 0.719);

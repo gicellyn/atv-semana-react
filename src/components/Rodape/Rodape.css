@@ -8,7 +8,7 @@
     align-items: center;
     gap: 100px;
     padding: 0px 10px;
-    position: relative;
+    position: fixed;
 }
 
 .footer li {
