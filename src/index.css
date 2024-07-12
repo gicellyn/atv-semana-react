@@ -1,3 +1,4 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
 
 *{
@@ -5,4 +6,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Suez One", sans-serif;
+}
+
+.form-section{
+    width: 320px;
+    margin: 16px auto;
+}
+
+.not-found{
+   text-align: center;    
 }

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import "./Rodape.css"
 
 function Rodape() {
@@ -13,7 +14,7 @@ function Rodape() {
                 <a href="#"><img src="./images/instagram.png" alt="instagram" width="30" /></a>
             </section>
             <nav className="lista-infos">
-                <a href="#">Contato</a>
+                <Link className="nav-link" to="/contato">Contato</Link>
                 <a href="#">Sobre nós</a>
                 <a href="#">FAQ de perguntas</a>
             </nav>

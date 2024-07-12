@@ -1,5 +1,6 @@
 import Cards from "../Card/Card";
 import "./Galeria.css";
+import Planos from "../Planos/Planos"
 
 const filmes = [
     { cod: 1, linkImg: "images/acidadeeumaso.jpg", descricao: "Documentário, Drama Comédia / Híbrido / 79' / 2013 / Brasil", direcao: "Direção: Adirley Queirós" },
@@ -19,6 +20,10 @@ function Galeria() {
         <div className="galeria-corpo">
             <h1>LISTA DE FILMES</h1>
             <section className="lista">{cardsFilmes}</section>
+            <section className="planos">
+                <Planos nome="Mensal" valor={60} desconto={0}/>
+                <Planos nome="Anual" valor={299} desconto={10} />
+           </section>
         </div>
 
     )
