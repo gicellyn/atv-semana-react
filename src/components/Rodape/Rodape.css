@@ -2,7 +2,7 @@
     color: #ff704d;
     background-color: rgb(19, 24, 66);
     bottom: 0px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,6 +22,10 @@
 
 .lista-redes img {
     margin: 2px 8px;
+}
+
+.lista-infos{
+    padding: 0px 10px;
 }
 
 .lista-infos a{
