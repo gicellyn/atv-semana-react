@@ -1,7 +1,7 @@
 .fundo-imagem {
     width: 100%;
     height: 320px;
-    /* background: url(../../assets/banner.jpeg); */
+    background: url(../../assets/banner.jpeg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -12,6 +12,6 @@
 .fundo-imagem p {
     /* letter-spacing: 2rem; */
     font-size: 60px;
-    /* color: rgba(255, 255, 255, 0.788); */
+    color: rgba(255, 255, 255, 0.788);
     
 }
